@@ -12,7 +12,7 @@ function Car() {
 
     useEffect(() => {
         gltf.scene.scale.set(0.01, 0.01, 0.01);
-        gltf.scene.position.set(0, 0, -3.5);
+        gltf.scene.position.set(0, 0, 0);
         gltf.scene.rotation.set(0, 0, 0);
         gltf.scene.traverse((object) => {
             if (object instanceof Mesh) {

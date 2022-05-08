@@ -6,7 +6,6 @@ import React, { Suspense } from 'react'
 
 import Ground from '../components/Ground'
 import Car from '../components/Car'
-import Car2 from '../components/Car2'
 import Rings from '../components/Rings'
 import { Boxes } from '../components/Boxes'
 import { Bloom, ChromaticAberration, DepthOfField, EffectComposer } from '@react-three/postprocessing'
@@ -26,7 +25,6 @@ function CarShow() {
           <>
             <Environment map={texture} />
             <Car />
-            <Car2 />
           </>
         )}
       </CubeCamera>
