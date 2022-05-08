@@ -8,7 +8,7 @@ import Ground from '../components/Ground'
 import Car from '../components/Car'
 import Rings from '../components/Rings'
 import { Boxes } from '../components/Boxes'
-import { Bloom, ChromaticAberration, DepthOfField, EffectComposer } from '@react-three/postprocessing'
+import { Bloom, ChromaticAberration, EffectComposer } from '@react-three/postprocessing'
 import { BlendFunction } from 'postprocessing'
 
 function CarShow() {
