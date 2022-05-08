@@ -54,7 +54,6 @@ function CarShow() {
       <Ground />
 
       <EffectComposer>
-        <DepthOfField focusDistance={0.0035} focalLength={0.01} bokehScale={3} height={480} />
         <Bloom
           blendFunction={BlendFunction.ADD}
           intensity={1.3}
