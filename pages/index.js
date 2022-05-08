@@ -11,7 +11,6 @@ import Rings from '../components/Rings'
 import { Boxes } from '../components/Boxes'
 import { Bloom, ChromaticAberration, DepthOfField, EffectComposer } from '@react-three/postprocessing'
 import { BlendFunction } from 'postprocessing'
-import { FloatingGrid } from '../components/FloatingGrid'
 
 function CarShow() {
   return (
@@ -34,7 +33,6 @@ function CarShow() {
 
       <Rings />
       <Boxes />
-      <FloatingGrid />
 
       <spotLight
         color={[1, 0.25, 0.7]}

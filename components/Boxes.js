@@ -53,7 +53,7 @@ function Box({ color }) {
 export function Boxes() {
     const [arr] = useState(() => {
         let a = []
-        for(let i = 0; i < 50; i++) a.push(0)
+        for(let i = 0; i < 30; i++) a.push(0)
         return a;
     })
 
